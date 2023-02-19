@@ -1,10 +1,10 @@
 {
-  "name": "webpack-userscript-template",
-  "description": "Build your UserScript with webpack",
-  "version": "0.0.1",
+  "name": "webpack-userscript-template-with-vue3",
+  "description": "Build your UserScript with webpack + vue3",
+  "version": "0.0.2",
   "author": {
-    "name": "Trim21",
-    "email": "trim21me@gmail.com"
+    "name": "KurosakiRei",
+    "email": "kurosakirei@outlook.com"
   },
   "scripts": {
     "format": "prettier -w ./",
@@ -16,12 +16,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trim21/webpack-userscript-template"
+    "url": "https://github.com/KurosakiRei/webpack-userscript-template-with-vue3"
   },
   "private": true,
   "dependencies": {
-    "@trim21/gm-fetch": "^0.1.12",
-    "jquery": "^3.6.3"
+    "jquery": "^3.6.3",
+    "postcss-loader": "^7.0.2",
+    "sass": "^1.58.1",
+    "sass-loader": "^13.2.0",
+    "vue": "^3.2.47",
+    "vue-loader": "^17.0.1"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,json}": [
@@ -29,7 +33,7 @@
     ]
   },
   "devDependencies": {
-    "@types/greasemonkey": "^4.0.4",
+    "@types/greasemonkey": "^3.0.0",
     "@types/jquery": "^3.5.16",
     "@types/node": "^18.13.0",
     "browserslist": "^4.21.5",
