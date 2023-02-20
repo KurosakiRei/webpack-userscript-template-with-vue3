@@ -14,6 +14,10 @@ This is a template that makes you can build your userscript in a very fast and f
 * Sass support
 * Degrade the @types/greasemonkey to V3 that supports more GM_* functions than its V4
 
+## Special Note📝
+
+Livereload seems to be only available under the tampermonkey plugin. If you are using a "monkey" other than tampermonkey, such as violent monkey, please replace it with tampermonkey to develop your script
+
 ## The following is the readme copy from the original repository:
 
 ---

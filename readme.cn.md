@@ -12,6 +12,10 @@
 * 支持Sass
 * 降级@types/greasemonkey到V3以支持更多的GM_*函数
 
+## 特别说明📝
+
+livereload好像只在tampermonkey插件下有用，如果你是用的是除tampermonkey之外的“monkey”，比如violent monkey，请换成tampermonkey来开发你的脚本
+
 ## 下面是来自原版仓库的readme副本:
 
 > # 使用 WebPack 来构件 UserScript
